@@ -1,0 +1,21 @@
+// Words or expressions from Lorraine
+export const words = [
+  "Mirabelle",
+  "Quiche",
+  "Bergamote",
+  "Choucroute",
+  "Nancy",
+  "Metz",
+  "Lorquin",
+  "Saint-Nicolas-de-Port",
+  "Vosges",
+  "Meuse",
+  "Moselle",
+  "Alsace-Lorraine",
+  "Lorraine",
+  "Vauban",
+  "Bataille de Verdun",
+  "Art Nouveau",
+  "Musée de la Cour d'Or",
+  "Place Stanislas",
+];
