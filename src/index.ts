@@ -5,7 +5,7 @@ export const generateLorraineIpsum = (numberOfWords: number) => {
   const randomWords: string[] = [];
 
   for (let i = 0; i < numberOfWords; i++) {
-    var randomIndex = Math.floor(Math.random() * words.length);
+    const randomIndex = Math.floor(Math.random() * words.length);
     randomWords.push(words[randomIndex]);
   }
 
