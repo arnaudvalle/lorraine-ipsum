@@ -11,6 +11,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "node --watch -r ts-node/register src/index.ts",
+    "lint": "npx prettier . --check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "arnaudvalle",
@@ -20,6 +21,7 @@
     "url": "git://github.com/arnaudvalle/lorraine-ipsum.git"
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
