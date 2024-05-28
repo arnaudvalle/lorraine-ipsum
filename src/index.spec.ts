@@ -23,3 +23,10 @@ test(
   -1,
   "numberOfWords must be greater than 0",
 );
+
+test(
+  "fails when first parameter is 0",
+  errorMacro,
+  0,
+  "numberOfWords must be greater than 0",
+);
