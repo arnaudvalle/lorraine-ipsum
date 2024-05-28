@@ -1,6 +1,10 @@
 import { words } from "./words";
 
 export const generateLorraineIpsum = (numberOfWords: number) => {
+  if (numberOfWords <= 0) {
+    throw new TypeError("numberOfWords must be greater than 0");
+  }
+
   // Select random words from the array
   const randomWords: string[] = [];
 
