@@ -1,10 +1,10 @@
 import test from "ava";
-import { generateLorraineIpsum } from "./index";
+import { generateWords } from "./index";
 
 const errorMacro = test.macro((t, input: number, expected: string) => {
   const error = t.throws(
     () => {
-      generateLorraineIpsum(input);
+      generateWords(input);
     },
     { instanceOf: TypeError },
   );
@@ -13,7 +13,7 @@ const errorMacro = test.macro((t, input: number, expected: string) => {
 });
 
 test("it returns 3 words separated by a space when asked for 3 words", (t) => {
-  const result = generateLorraineIpsum(3);
+  const result = generateWords(3);
   t.is(result.split(" ").length, 3);
 });
 
