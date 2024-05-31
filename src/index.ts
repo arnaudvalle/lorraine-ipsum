@@ -1,5 +1,12 @@
 import { words } from "./words";
 
+/**
+ * Generates a sentence made of randomly picked words.
+ *
+ * @param numWords - The number of words to use in the sentence.
+ * @throws Error if the number of words is less or equal to zero.
+ * @returns A sentence made of randomly picked words.
+ */
 export const generateSentence = (numWords: number) => {
   if (numWords <= 0) {
     throw new TypeError("numWords must be greater than 0");
