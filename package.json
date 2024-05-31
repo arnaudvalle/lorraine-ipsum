@@ -4,8 +4,13 @@
   },
   "name": "lorraine-ipsum",
   "version": "0.0.1",
-  "description": "Generate Lorraine-related placeholder text",
-  "keywords": ["lorraine", "ipsum", "text", "silly"],
+  "description": "Generate nonsensical placeholder text inspired by the region of Lorraine ☨",
+  "keywords": [
+    "lorraine",
+    "ipsum",
+    "text",
+    "silly"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
