@@ -1,14 +1,14 @@
 import { words } from "./words";
 
-export const generateWords = (numberOfWords: number) => {
-  if (numberOfWords <= 0) {
-    throw new TypeError("numberOfWords must be greater than 0");
+export const generateSentence = (numWords: number) => {
+  if (numWords <= 0) {
+    throw new TypeError("numWords must be greater than 0");
   }
 
   // Select random words from the array of available words
   const randomWords: string[] = [];
 
-  for (let i = 0; i < numberOfWords; i++) {
+  for (let i = 0; i < numWords; i++) {
     const randomIndex = Math.floor(Math.random() * words.length);
     randomWords.push(words[randomIndex]);
   }

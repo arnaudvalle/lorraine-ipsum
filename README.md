@@ -11,10 +11,10 @@ npm install lorraine-ipsum
 ## Usage
 
 ```typescript
-import { generateWords } from 'lorraine-ipsum';
+import { generateSentence } from 'lorraine-ipsum';
 
 // Get 54 words of Lorraine ipsum
-const words = generateWords(54);
+const words = generateSentence(54);
 ```
 
 ## License
