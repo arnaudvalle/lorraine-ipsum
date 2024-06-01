@@ -24,5 +24,5 @@ export const generateSentence = (numWords: number) => {
   const text = randomWords.join(" ");
 
   // Easy capitalizeFirstLetter thanks to https://stackoverflow.com/a/1026087/1300306
-  return text.charAt(0).toUpperCase() + text.slice(1);
+  return text.charAt(0).toUpperCase() + text.slice(1) + ".";
 };
