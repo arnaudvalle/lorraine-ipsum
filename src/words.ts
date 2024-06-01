@@ -1,7 +1,7 @@
 // Words or expressions from Lorraine
 export const words = [
   "clanche",
-  "flo",
+  "flots",
   "touiller",
   "trisser",
   // Food
