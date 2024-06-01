@@ -12,9 +12,16 @@ const errorMacro = test.macro((t, input: number, expected: string) => {
   t.is(error.message, expected);
 });
 
-test("it returns 3 words separated by a space when asked for 3 words", (t) => {
-  const result = generateSentence(3);
-  t.is(result.split(" ").length, 3);
+test("it returns the request number of words separated by spaces", (t) => {
+  const [three, twelve] = [generateSentence(3), generateSentence(12)];
+  t.is(three.split(" ").length, 3);
+  t.is(twelve.split(" ").length, 12);
+});
+
+test("it always ends with a period", (t) => {
+  const [three, twelve] = [generateSentence(3), generateSentence(12)];
+  t.is(three.slice(-1), ".");
+  t.is(twelve.slice(-1), ".");
 });
 
 test(
