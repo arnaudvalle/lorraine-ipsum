@@ -1,5 +1,5 @@
 import test from "ava";
-import { generateSentence } from "./index";
+import { generateSentence } from "./index.js";
 
 const errorMacro = test.macro((t, input: number, expected: string) => {
   const error = t.throws(

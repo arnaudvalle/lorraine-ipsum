@@ -1,5 +1,5 @@
 export default {
-  files: ["**/*.spec.ts"],
+  files: ["**/*.spec.mts"],
   typescript: {
     rewritePaths: {
       "src/": "dist/",
